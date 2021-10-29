@@ -1,0 +1,185 @@
+body{
+	font: 15px/1.5em Arial;
+	padding: 0;
+	margin: 0;
+	background-color: white;
+}
+
+.container{
+	width:95%;
+	margin:auto;
+	overflow: hidden;
+}
+ 
+ul{
+	padding:0;
+	margin: 0;
+}
+
+header{
+	background:orange;
+	color:white;
+	padding-top:30px;
+	min-height: 70px;
+	border-bottom: blue 5px solid;  
+}
+
+header a{
+	color:white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+
+header li{
+	float:left;
+	display: inline;
+	padding:0 20px 0 20px; 
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	float:right;
+}
+
+header .highlight, header .current a{
+	color:white;
+	font-weight: bold;
+}
+
+header a:hover{
+	color:blue;
+}
+
+#showcase{
+	min-height: 500px;
+	background:url('../Images/showcase.jpg');
+	background-repeat: none; 
+	text-align: center;
+	color:white;
+}
+
+#showcase h1{
+    margin-top:100px;
+    font-size:40px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+	font-size:15px;
+}
+
+#letter{
+	padding:15px;
+	color:white;
+	background:orange;
+}
+
+#letter h1{
+	float:left;
+}
+
+#letter form{
+	float:right;
+	margin-top: 17px;
+}
+
+#letter input[type="email"]{
+	padding:5px;
+	height:20px;
+	width:200px;
+}
+
+.button1{
+	height:40px;
+	background:white;
+	padding-left:20px;
+	padding-right: 20px;
+	border:solid;
+	border-color: black 2px;
+	border-radius: 10px;
+}
+
+.button1:hover{
+	background: blue;
+	color:white;
+}
+
+#boxes{
+	margin:20px;
+}
+
+#boxes .box{
+	float:left;
+	width:30%;
+	padding:10px;
+	text-align: center;
+}
+
+#boxes .box img{
+    width:110px;
+}
+
+footer{
+	padding:20px;
+	margin-top:20px;
+	color:white;
+	background-color: orange;
+	text-align:center;
+}
+
+aside#side{
+	float:right;
+	width:30%;
+	margin-top: 10px;
+}
+
+article#main-col{
+	float:left;
+	width:60%;
+}
+
+.dark{
+	padding:15px;
+	background:blue;
+	color:white;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.form label {
+	display: block;
+	margin:10px;
+}
+.form input{
+     padding:8px;
+     width:30%;
+
+}
+
+.form{
+	margin-top: 60px;
+	padding-top:15px;
+	padding-bottom: 25px;
+}
+
+.form1{
+	margin-left:200px;
+	margin-right:200px;
+	background-color: blue;
+	text-align: center;
+	margin-top:15px;
+}
+
+.form select{
+	width:30%;
+	height:40px;
+}
